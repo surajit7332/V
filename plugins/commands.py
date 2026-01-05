@@ -61,7 +61,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+IryNcDIrXlszNmY1")
             ]]
         else:
             buttons = [[
@@ -75,7 +75,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+IryNcDIrXlszNmY1")
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -163,7 +163,7 @@ async def start(client, message):
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+IryNcDIrXlszNmY1")
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -208,7 +208,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                    InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+IryNcDIrXlszNmY1")
                 ]]
             else:
                 buttons = [[
@@ -222,7 +222,7 @@ async def start(client, message):
                 ],[
                     InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                    InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+IryNcDIrXlszNmY1")
                 ]]
             if CLONE_MODE == True:
                 buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -1414,3 +1414,4 @@ async def purge_requests(client, message):
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
+
