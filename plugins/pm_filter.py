@@ -93,7 +93,7 @@ async def pm_text(bot, message):
         await message.reply_text(
             "<b><i>ɪ ᴀᴍ ɴᴏᴛ ᴡᴏʀᴋɪɴɢ ʜᴇʀᴇ. ꜱᴇᴀʀᴄʜ ᴍᴏᴠɪᴇꜱ ɪɴ ᴏᴜʀ ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ.</i></b>",
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ", url='https://t.me/+Nle-Iq1EckRhYjRl')]]
+                [[InlineKeyboardButton("📝 ᴍᴏᴠɪᴇ ꜱᴇᴀʀᴄʜ ɢʀᴏᴜᴘ", url='https://t.me/+IryNcDIrXlszNmY1')]]
             )
         )
     
@@ -1853,7 +1853,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+IryNcDIrXlszNmY1")
             ]]
         else:
             buttons = [[
@@ -1867,7 +1867,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton('ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+CQItwmO9k6kwMjRl")
+                InlineKeyboardButton('ʀᴇǫᴜᴇsᴛ ᴀ ᴍᴏᴠɪᴇ', url="https://t.me/+IryNcDIrXlszNmY1")
             ]]
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('ᴄʀᴇᴀᴛᴇ ᴏᴡɴ ᴄʟᴏɴᴇ ʙᴏᴛ', callback_data='clone')])
@@ -3303,3 +3303,4 @@ async def global_filters(client, message, text=False):
                 break
     else:
         return False
+
